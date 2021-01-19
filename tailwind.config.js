@@ -1,11 +1,34 @@
+// const colors = require("tailwindcss/colors");
+
+// module.exports = {
+//   purge: ["src/**/*.html"],
+//   darkMode: false, // or 'media' or 'class'
+//   theme: {
+//     extend: {
+//       colors: {
+//         teal: colors.teal,
+//         orange: colors.orange,
+//       },
+//     },
+//   },
+//   variants: {
+//     extend: {},
+//   },
+//   plugins: [],
+// };
+
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  purge: ["src/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        teal: colors.teal,
+        orange: colors.orange,
+      },
+    },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
-}
+};
