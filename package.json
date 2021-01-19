@@ -1,0 +1,32 @@
+{
+  "name": "beginner-tailwind-site",
+  "version": "1.0.0",
+  "description": "Chris on code beginner tailwind course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "latest",
+    "postcss-modules": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgarciallamas/beginner-tailwind-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgarciallamas/beginner-tailwind-site/issues"
+  },
+  "homepage": "https://github.com/jgarciallamas/beginner-tailwind-site#readme"
+}
